@@ -1,6 +1,6 @@
 import sys
 
-
+from src.logger import logging
 def error_message(error,error_detail) -> str:
     """Prints an error message to stderr and exits the program."""
     _, _, exc_tb = sys.exc_info()
